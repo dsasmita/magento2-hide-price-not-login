@@ -35,7 +35,7 @@ php bin/magento setup:static-content:deploy
 ![ScreenShot](https://github.com/dsasmita/magento2-hide-price-not-login/blob/master/File/configuration.png)
 
 ## Donation
-If you find this extension help you,  feel free to donate:
+If you find this extension help you,  feel free to donate
 :)
 
-[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/dsasmita)
+[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](http://bit.ly/2nFWFZI)
