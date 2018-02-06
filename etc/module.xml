@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Limecommerce.
+ *
+ * @category  Lime
+ * @package   Lime_Hideprice
+ * @author    dadang.lime
+ * @copyright Copyright (c) Limecommerce.com
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/Module/etc/module.xsd">
+   <module name="Dangs_Hideprice" setup_version="1.0.0" schema_version="1.0.0"/>
+</config>

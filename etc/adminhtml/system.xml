@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * dangs.
+ *
+ * @category  dangs
+ * @package   Dangs_Marketplace
+ * @author    dangs.work@gmail.com
+ * @copyright Copyright (c) dangs.work@gmail.com
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="dangs" translate="label" sortOrder="11">
+            <label>Dangs</label>
+        </tab>
+        <section id="dangs_hideprice" translate="label" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Hide Price</label>
+            <tab>dangs</tab>
+            <resource>Dangs_Hideprice::config_hideprice</resource>
+            <group id="general" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>General Setting</label>
+                <field id="enabled" translate="label comment" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Enabled</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment>This works only if you choose to display out hide price.</comment>
+                </field>
+                <field id="wording_hide_price" translate="label comment" sortOrder="2" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Wording Price Hide</label>
+                    <depends>
+                        <field id="enabled">1</field>
+                    </depends>
+                    <comment>wording when price hide</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
