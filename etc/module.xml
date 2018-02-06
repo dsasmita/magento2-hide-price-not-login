@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <!--
 /**
- * Limecommerce.
+ * Dangs.
  *
- * @category  Lime
- * @package   Lime_Hideprice
- * @author    dadang.lime
- * @copyright Copyright (c) Limecommerce.com
+ * @category  Dangs
+ * @package   Dangs_Hideprice
+ * @author    dangs.work
+ * @copyright Copyright (c) 
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/Module/etc/module.xsd">
