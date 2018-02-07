@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <!--
 /**
- * dangs.
+ * Dangs.
  *
- * @category  dangs
- * @package   Dangs_Marketplace
+ * @category  Dangs
+ * @package   Dangs_Hideprice
  * @author    dangs.work@gmail.com
- * @copyright Copyright (c) dangs.work@gmail.com
+ * @copyright Copyright (c) 
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
